@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+#navbar{
+    position: sticky;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(202, 29, 142);
+}
+.btn{
+    background-color: rgb(202, 29, 142) !important;
+    color: #fff !important;
+    box-shadow: 2px 2px 10px rgb(202, 29, 142);
+}
+.btn:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+#navbarSupportedContent a{
+    color: #fff !important;
+    border-bottom: 3px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid rgb(202, 29, 142)
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)), url(mealss.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#home h1{
+    color: white;
+    font-size: 100px;
+}
+.search{
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+#home div button{
+    padding: 10px;
+    background-color: rgb(202, 29, 142);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(202, 29, 142);
+}
+#home div button:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+/* about */
+#aboutus{
+    background-color: rgb(253, 124, 238) !important;
+    color: #fff;
+}
+#aboutus h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+/* products */
+#products{
+    background-color: rgb(205, 200, 200);
+}
+.card{
+    box-shadow: 5px 5px 20px black,
+    inset 4px 4px 10px white;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px black,
+    inset -4px -4px 10px white;
+}
+#contact img{
+    height: 100%;
+    width: 90%;
+}
+#contact input{
+    margin: 20px 0;
+}
+#contact textarea{
+    margin: 20px 0;
+}
+#contact button{
+    margin: 20px 0;
+}
